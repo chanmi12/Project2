@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>실전 프로젝트1 정보 입력 폼</h2>
+    <form action = "test.ok.php" method = "post">
+        이름: <input type = "text" name = "username"> <br>
+        학번: <input type = "text" name = "studentid"> <br>
+        아이디: <input type = "text" name = "userid"> <br>
+        비번: <input type = "password" name = "pwd"> <br>
+        이메일: <input type = "text" name = "email"> <br>
+        성별: <input type = "radio" name = "gender" value ="1"> 남자
+              <input type = "radio" name = "gender" value = "2"> 여자 <br>
+        분반: <input type = "radio" name = "class" value ="1"> 1분반
+              <input type = "radio" name = "class" value ="2"> 2분반
+              <input type = "radio" name = "class" value ="3"> 3분반
+        신입생/재학생/복학생: <input type = "radio" name = "type" value ="1"> 신입생
+                            <input type = "radio" name = "type" value ="2"> 재학생
+                            <input type = "radio" name = "type" value ="3"> 복학생 <br>
+        전산 1전공 여부: <input type = "radio" name = "major" value ="1"> 예
+                        <input type = "radio" name = "major" value ="2"> 아니요 <br>
+        학기 수: <input type = "radio" name = "grade" value ="1"> 1-2학기
+                <input type = "radio" name = "grade" value ="2"> 3-4학기
+                <input type = "radio" name = "grade" value ="3"> 5-6학기
+                <input type = "radio" name = "grade" value ="4"> 7학기 이상 <br>
+        OS:  <input type = "radio" name = "os" value ="1"> window 
+                <input type = "radio" name = "os" value ="2"> mac 
+                <input type = "radio" name = "os" value ="3"> linux <br>
+
+        <input type = "submit" value = "로그인">
+        <input type = "reset" value = "새로고침">
+        <p>If you click the "submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+    </form>
+</body>
+</html>
